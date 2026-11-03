@@ -136,8 +136,9 @@ npm run build -- --base=/telangana-water-atlas/
 ```
 
 The [public demo](https://telangana-water-atlas.pages.dev/) is hosted on
-Cloudflare Pages using Wrangler direct upload. Git pushes do not automatically
-deploy it. [Maintainer deployment instructions →](docs/cloudflare-pages.md)
+Cloudflare Pages, with GitHub `main` connected for automatic builds and
+deployments. The original release used Wrangler direct upload.
+[Maintainer deployment instructions →](docs/cloudflare-pages.md)
 
 Optional gauge checks reload the publisher's static JSON; they do not contact
 CWC or create fresh observations.
