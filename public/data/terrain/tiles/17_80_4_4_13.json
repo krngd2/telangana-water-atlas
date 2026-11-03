@@ -1,0 +1,19 @@
+{
+  "lat": 17,
+  "lon": 80,
+  "level": 4,
+  "x": 4,
+  "y": 13,
+  "sha256": "ea9069bb0480bdf478b8da619a63c4ceb1340e772ad682b8ee91177f67692a12",
+  "sourceUrl": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N17_00_E080_00_DEM/Copernicus_DSM_COG_10_N17_00_E080_00_DEM.tif",
+  "source": "Copernicus GLO-30",
+  "sourceImageIndex": 0,
+  "sourceOverviewFactor": 1,
+  "gridStepArcSeconds": 1,
+  "quantizationM": 0.1,
+  "minElevation": 89.66162872314453,
+  "maxElevation": 137.0596923828125,
+  "fetchedAt": "2026-11-03T14:02:23.739Z",
+  "validSamples": 51076,
+  "verticalDatum": "EGM2008"
+}

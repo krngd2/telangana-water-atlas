@@ -1,0 +1,122 @@
+{
+  "fetchedAt": "2026-11-03T13:59:29.624Z",
+  "sources": [
+    {
+      "basin": "Godavari",
+      "resourceId": "c6f31452-b416-4599-a6ae-07ad4217cdf4",
+      "datasetUpdatedAt": "2026-11-03T00:32:56.617783",
+      "stations": [
+        {
+          "name": "Bhadrachalam",
+          "basin": "Godavari",
+          "river": "Godavari",
+          "lat": 17.66944444,
+          "lon": 80.87388889,
+          "level": 39.427,
+          "unit": "m",
+          "observedAt": "2026-11-02T18:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "26.6100",
+          "discharge": null
+        },
+        {
+          "name": "Kaleswaram",
+          "basin": "Godavari",
+          "river": "Godavari",
+          "lat": 18.82,
+          "lon": 79.91,
+          "level": 94.781,
+          "unit": "m",
+          "observedAt": "2026-02-18T11:30:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "91.2900",
+          "discharge": null
+        },
+        {
+          "name": "Sripada Yellampalli Project",
+          "basin": "Godavari",
+          "river": "Godavari",
+          "lat": 18.84416667,
+          "lon": 79.37277778,
+          "level": 138.45,
+          "unit": "m",
+          "observedAt": "2026-01-17T06:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "0.0000",
+          "discharge": null
+        },
+        {
+          "name": "Sriram Sagar Reservoir",
+          "basin": "Godavari",
+          "river": "Godavari",
+          "lat": 18.97,
+          "lon": 78.34,
+          "level": 270.84,
+          "unit": "m",
+          "observedAt": "2026-06-02T13:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "0.0000",
+          "discharge": null
+        }
+      ],
+      "rejected": 312
+    },
+    {
+      "basin": "Krishna",
+      "resourceId": "d80798b9-4b11-4626-8b63-964202ba7216",
+      "datasetUpdatedAt": "2026-11-03T00:32:58.042926",
+      "stations": [
+        {
+          "name": "Madhira",
+          "basin": "Krishna",
+          "river": "Wyra",
+          "lat": 16.91805556,
+          "lon": 80.35888889,
+          "level": 44.5,
+          "unit": "m",
+          "observedAt": "2026-11-02T12:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "41.5000",
+          "discharge": null
+        },
+        {
+          "name": "P.D. Jurala",
+          "basin": "Krishna",
+          "river": "Krishna",
+          "lat": 16.33,
+          "lon": 77.7,
+          "level": 318.363,
+          "unit": "m",
+          "observedAt": "2026-09-01T05:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "0.0000",
+          "discharge": null
+        },
+        {
+          "name": "Wadenepally",
+          "basin": "Krishna",
+          "river": "Krishna",
+          "lat": 16.79416667,
+          "lon": 80.07305556,
+          "level": 22.054,
+          "unit": "m",
+          "observedAt": "2026-11-02T18:00:00+05:30",
+          "datum": "Provider water-level value; vertical datum unverified",
+          "quality": "Screened finite 0–1500 m; not independently validated",
+          "zeroGaugeRL": "22.0540",
+          "discharge": null
+        }
+      ],
+      "rejected": 626
+    }
+  ],
+  "note": "Water levels, not discharge. Observation time determines freshness. Provider timezone interpreted as IST; datum not verified.",
+  "generatedAt": "2026-11-03T13:59:29.624Z",
+  "delivery": "static-json"
+}
