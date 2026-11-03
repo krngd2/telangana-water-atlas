@@ -10,6 +10,10 @@ mobile touch and the 2D fallback.
 Local URL: `http://127.0.0.1:5173`. Installed Google Chrome through Playwright;
 Browser plugin not available. Local Node.js 25.8.1. CI is configured for Node.js
 24 LTS on Ubuntu; its hosted result is shown by the README workflow badge.
+The first hosted attempts could not start an application test job because of
+an account-level runner restriction. Local results below are completed checks;
+hosted verification remains unavailable until that restriction is resolved.
+An owner can then rerun CI from the repository's Actions tab.
 
 | Check | Result |
 | --- | --- |
@@ -22,6 +26,7 @@ Browser plugin not available. Local Node.js 25.8.1. CI is configured for Node.js
 | Copernicus notices | Full upstream licence PDF, modified-data attribution and required liability notice bundled; notice also shown in the app and native-terrain PNG export |
 | Documentation screenshots | Four real captures reviewed; intake scenario and lift profile framed by scrolling the existing panel |
 | Dependency audit | `npm audit` reported zero known vulnerabilities at preparation time; not a security guarantee |
+| Hosted GitHub Actions | Blocked before test execution by an account-level restriction; not a passing hosted run |
 | Data reuse scope | Original code/docs MIT; upstream terrain, geometry, observations, fonts and library terms separately documented |
 
 Screenshots are committed under [screenshots/](screenshots/README.md). The capture
