@@ -8,7 +8,7 @@ An interactive, source-linked atlas of Telangana's terrain, rivers and irrigatio
 
 [![CI](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml) [![Code: MIT](https://img.shields.io/badge/code-MIT-23695c)](LICENSE) [![Status: educational beta](https://img.shields.io/badge/status-educational_beta-b88a3b)](#read-the-map-responsibly) [![Node.js: 24 LTS](https://img.shields.io/badge/Node.js-24_LTS-417e38)](.nvmrc)
 
-[Get started](#run-it-locally) · [What you can explore](#what-you-can-explore) · [Data & methods](docs/data-and-method.md) · [Contribute](CONTRIBUTING.md)
+[Live demo](https://telangana-water-atlas.pages.dev/) · [Get started](#run-it-locally) · [What you can explore](#what-you-can-explore) · [Data & methods](docs/data-and-method.md) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -135,9 +135,13 @@ calls**. For hosting beneath a path, use:
 npm run build -- --base=/telangana-water-atlas/
 ```
 
-There is no hosted public demo configured by this repository. Optional gauge
-checks reload the publisher's static JSON; they do not contact CWC or create
-fresh observations. [Deployment and data-update details →](docs/data-and-method.md#static-deployment)
+The [public demo](https://telangana-water-atlas.pages.dev/) is hosted on
+Cloudflare Pages using Wrangler direct upload. Git pushes do not automatically
+deploy it. [Maintainer deployment instructions →](docs/cloudflare-pages.md)
+
+Optional gauge checks reload the publisher's static JSON; they do not contact
+CWC or create fresh observations.
+[Data-update details →](docs/data-and-method.md#static-deployment)
 
 ## Data and architecture
 
