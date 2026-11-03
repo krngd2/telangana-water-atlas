@@ -6,10 +6,7 @@
 
 An interactive, source-linked atlas of Telangana's terrain, rivers and irrigation projects.
 
-[![CI](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml)
-[![Code: MIT](https://img.shields.io/badge/code-MIT-23695c)](LICENSE)
-[![Status: educational beta](https://img.shields.io/badge/status-educational_beta-b88a3b)](#read-the-map-responsibly)
-[![Node.js: 24 LTS](https://img.shields.io/badge/Node.js-24_LTS-417e38)](.nvmrc)
+[![CI](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/krngd2/telangana-water-atlas/actions/workflows/ci.yml) [![Code: MIT](https://img.shields.io/badge/code-MIT-23695c)](LICENSE) [![Status: educational beta](https://img.shields.io/badge/status-educational_beta-b88a3b)](#read-the-map-responsibly) [![Node.js: 24 LTS](https://img.shields.io/badge/Node.js-24_LTS-417e38)](.nvmrc)
 
 [Get started](#run-it-locally) · [What you can explore](#what-you-can-explore) · [Data & methods](docs/data-and-method.md) · [Contribute](CONTRIBUTING.md)
 
