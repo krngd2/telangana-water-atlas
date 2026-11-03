@@ -5,3 +5,10 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Local test and Python tooling
+playwright-report/
+test-results/
+.venv/
+__pycache__/
+*.pyc

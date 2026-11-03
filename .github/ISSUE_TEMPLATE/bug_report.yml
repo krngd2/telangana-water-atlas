@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a broken interaction, rendering issue or accessibility problem.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the saved-view URL, controls used and a screenshot if helpful. Remove private information.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Android, Firefox on Linux, Safari on iPhone…
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Version or commit
+      description: Include the commit or deployment URL if known.

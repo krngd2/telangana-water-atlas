@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a clearer explanation, interaction or contribution.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What should a visitor be able to understand or do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested approach
+      description: Describe the behavior, useful sources and mobile/keyboard considerations.
+    validations:
+      required: true

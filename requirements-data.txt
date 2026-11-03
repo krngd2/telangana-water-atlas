@@ -1,0 +1,4 @@
+# Optional: needed only to regenerate the regional DEM and hydrology.
+# Normal development and static builds use the bundled data without Python.
+numpy>=1.26,<3
+Pillow>=10.4,<13

@@ -1,0 +1,30 @@
+name: Data or source correction
+description: Correct a number, location, status, attribution or evidence claim.
+labels: [data]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Which label or claim needs correction?
+      description: Quote the relevant text and name the site, topic or file.
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Proposed correction
+      description: Include units and whether this is a design value, dated observation or reported claim. Explain uncertainty.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide a source URL, document title, publication date and page/table reference. Prefer official technical sources.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Data rights or location precision
+      description: For new data, include reuse terms and explain whether coordinates are surveyed or approximate.

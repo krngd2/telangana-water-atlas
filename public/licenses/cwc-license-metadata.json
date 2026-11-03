@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-11-03T15:42:36.389Z",
+  "source": "https://nwdp.nwic.gov.in/api/3/action/package_show?id=68600163-c5a0-4327-aa1a-fa7157b86cce",
+  "datasetId": "68600163-c5a0-4327-aa1a-fa7157b86cce",
+  "title": "River Water Level (Telemetry - Hourly), Central Water Commission (CWC)",
+  "license_id": "other-open",
+  "license_title": "Other (Open)",
+  "license_url": null,
+  "accessControl": "Public",
+  "notice": "Publisher metadata only; no new licence is granted by this repository."
+}

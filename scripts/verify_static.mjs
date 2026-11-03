@@ -16,4 +16,6 @@ if(/@import\s+url\(['"]?https?:/.test(css))throw new Error('Remote runtime style
 const fonts=[...css.matchAll(/url\(['"]?\/fonts\/([^)'"\s]+)['"]?\)/g)].map(m=>m[1]);
 if(!fonts.length)throw new Error('Local fonts are missing');
 for(const font of new Set(fonts))await fs.access(new URL('fonts/'+font,root));
+for(const notice of ['NOTICE.txt','licenses/atlas-MIT.txt','licenses/three-MIT.txt','licenses/Copernicus-DEM-GLO-30.pdf','licenses/cwc-license-metadata.json','fonts/DM-Sans-OFL.txt','fonts/Libre-Caslon-Text-OFL.txt'])await fs.access(new URL(notice,root));
+if(await fs.readFile(new URL('licenses/atlas-MIT.txt',root),'utf8')!==await fs.readFile(new URL('../LICENSE',root),'utf8'))throw new Error('Distributed project licence does not match LICENSE.');
 console.log(`Static assets verified: ${count} terrain tiles, ${snapshot.sources.reduce((n,s)=>n+s.stations.length,0)} gauge observations, ${new Set(fonts).size} local font files.`);

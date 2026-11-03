@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/krngd2/telangana-water-atlas/security/advisories/new
+    about: Avoid posting vulnerability details or credentials in public issues.

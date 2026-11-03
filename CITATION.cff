@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use the atlas or its code, please cite this repository and separately credit the upstream datasets."
+title: "Telangana Water Atlas"
+type: software
+authors:
+  - name: "Sai Kiran"
+repository-code: "https://github.com/krngd2/telangana-water-atlas"
+url: "https://github.com/krngd2/telangana-water-atlas"
+license: MIT
+abstract: "An educational terrain and irrigation-system atlas. Code and original documentation are MIT licensed; upstream datasets retain separate terms in DATA_LICENSES.md."
+keywords:
+  - Telangana
+  - hydrology
+  - geospatial
+  - irrigation
+  - Three.js
