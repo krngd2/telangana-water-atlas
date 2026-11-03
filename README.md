@@ -122,6 +122,11 @@ npm run preview          # Preview dist/ locally
 Browser tests start the development server automatically. On Linux, browser setup
 may require `npx playwright install --with-deps chrome`.
 
+Release checks on 3 November 2026: **27 unit tests and 26 browser tests passed
+locally**, and the production build passed. Hosted Actions is currently blocked
+before test execution by an account-level restriction; the badge reflects that
+state. [Validation record and remaining limits →](docs/open-source-qa.md)
+
 Publish the complete **`dist/`** directory to a static HTTP(S) host. The production
 app has **no backend, runtime data proxy, external fonts or required provider API
 calls**. For hosting beneath a path, use:
