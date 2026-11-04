@@ -24,7 +24,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.0",
     "geotiff": "^3.0.5",
-    "vite": "^7.3.1"
+    "vite": "^8.3.5"
   },
   "description": "An educational atlas of Telangana terrain, water paths and irrigation systems.",
   "license": "MIT",
