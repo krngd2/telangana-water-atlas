@@ -19,7 +19,7 @@
     "docs:check": "node scripts/verify_docs.mjs"
   },
   "dependencies": {
-    "three": "^0.185.0"
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",
